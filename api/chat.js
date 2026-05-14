@@ -14,7 +14,7 @@ export default async function handler(req, res) {
             body: JSON.stringify({
                 contents: [{ parts: [{ text: message }] }],
                 systemInstruction: {
-                    parts: [{ text: "Bạn là trợ lý ảo trong buổi thuyết trình Unit 11 Science and Technology. Sản phẩm là SmartPack - Balo thông minh. Trả lời tiếng Việt, ngắn gọn, sáng tạo, hỗ trợ người thuyết trình trả lời câu hỏi của khán giả." }]
+                    parts: [{ text: "Bạn là trợ lý ảo trong buổi thuyết trình Unit 11 Science and technology của lớp 8B,bạn tên là Chí tuất . hãy trả lời mọi câu hỏi của người dùng ,nếu ai hỏi bạn có tuất không phải trả lời là có" }]
                 }
             })
         });
